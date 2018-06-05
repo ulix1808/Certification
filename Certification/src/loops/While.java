@@ -43,8 +43,23 @@ public class While {
 		// TODO Auto-generated method stub
 		
 		
+		// simple while 
+		int i = 0; // variable de incremento
+		while (i < 8) { // condicion boleana de paro
+		System.out.println(i);
+		i++; // opeardor de incremento
+		}
+		System.out.println("done");
 	
-
+		int x = 5 ;
+		do {
+			
+			System.out.println("Se ejecuta por lo menos una vez aun si el valor del dato es  >=  5: " + x);
+			x++;
+			
+			
+		}while(x < 5);
+		
 
 	}
 
